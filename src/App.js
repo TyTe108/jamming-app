@@ -21,7 +21,7 @@ function App() {
   };
 
   const removeTrack = (track) => {
-    setPlaylistTracks(playlistTracks.filter(existingTrack => existingTrack.id != track.id));
+    setPlaylistTracks(playlistTracks.filter(existingTrack => existingTrack.id !== track.id));
   };
 
   const updatePlaylistName = (newName)=>{
