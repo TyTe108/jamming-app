@@ -2,7 +2,8 @@
 
 
 const clientId = '5a9bc2fe84e049f8b6a6b5b2f5f4f670';
-const redirectUri = 'http://localhost:3000/';
+//const redirectUri = 'http://localhost:3000/';
+const redirectUri = 'https://tyler-spotify-jamming-app.netlify.app/';
 let accessToken;
 
 const Spotify = {
